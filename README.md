@@ -10,7 +10,9 @@ Available at <html>https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 ```transforms.py``` contains Transforms for train and val/test images <br>
 ```train.py``` contains the model and trains for specified epochs <br>
 ```main.py``` Loads the argparser and starts the training by calling ```train.py``` <br>
-  ```test.py``` Return the confusion matrix and accuracy on a test set
+  ```test.py``` Return the confusion matrix and accuracy on a test set <br>
+  ```requirements.txt``` contains libraries in the python environment where experiments ran <br>
+  ```tensorboard.txt``` contains links for experimental results of 4 Models
 <br>
 
 Train the model for specified epochs
@@ -29,5 +31,5 @@ python3 test.py --model_path='./best_models/rs10_model_2_32_79.17_0.8125_0.64_0.
 <h3> Tensorboard Links </h3> <br>
   
   
-```tensorboard.txt``` contains links for experimental results of 4 Models
+
 <h3> Please feel free to raise issues and star the repo if useful </h3>
