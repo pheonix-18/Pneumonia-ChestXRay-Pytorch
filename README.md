@@ -28,8 +28,6 @@ python3 test.py --model_path='./best_models/rs10_model_2_32_79.17_0.8125_0.64_0.
 ```
 ![plot](./ResPre70.png)
 <h3> Report of the Paper is also available in the directory </h3>
-<h3> Tensorboard Links </h3> <br>
-  
   
 
 <h3> Please feel free to raise issues and star the repo if useful </h3>
