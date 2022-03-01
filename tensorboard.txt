@@ -1,0 +1,8 @@
+Pretrain 10 Anneal
+Exp 1 - https://tensorboard.dev/experiment/UZJ4au5VTPa3c2cOnXKQmA/
+Scratch 10 Anneal
+Exp 2 - https://tensorboard.dev/experiment/55wvulM2Rkm8jlpF6DnWYg/
+Pretrain 70 Anneal
+Exp 4 - https://tensorboard.dev/experiment/Tv4kTgMvQfGXpPaUMqTRYg/
+Scratch 70 Anneal
+Exp 5 - https://tensorboard.dev/experiment/IJhW6pezRyKGO7oO9tLv9A/
