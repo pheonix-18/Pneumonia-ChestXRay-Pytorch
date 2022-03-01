@@ -1,0 +1,11 @@
+4 Saved PTH files
+
+https://drive.google.com/drive/folders/1Y4reY57EYVSBlyeslR3sTOXndZeecxYu?usp=sharing
+
+Ex Model : rp10_model_26_32_94.07_0.875_0.55_1e-05_.pth
+
+Resnet Pretrained with 0.1 LR Reduction rate. Model saved at 26 th Epoch' Batch size 32 'Train Accuracy: 94.07 'Val Accuracy:87.5
+'Val loss = 0.55, 'learning rate at this epoch.
+
+** Tensorboard links are available in readme file.
+
