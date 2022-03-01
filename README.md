@@ -9,7 +9,8 @@ Available at <html>https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 ```dataset.py``` contains Dataset class in pytorch to load data <br>
 ```transforms.py``` contains Transforms for train and val/test images <br>
 ```train.py``` contains the model and trains for specified epochs <br>
-```main.py``` Loads the argparser and starts the training by calling ```train.py```
+```main.py``` Loads the argparser and starts the training by calling ```train.py``` <br>
+  ```test.py``` Return the confusion matrix and accuracy on a test set
 <br>
 
 Train the model for specified epochs
