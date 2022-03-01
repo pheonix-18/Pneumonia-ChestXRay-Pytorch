@@ -2,8 +2,10 @@
 <h1> Chest X-Ray Pneumonia Detection in PyTorch </h1>
 This repository solves the problem of Pneumonia Chest Xray detection using PyTorch
 <br>
+
+
 ![plot](./person1944_bacteria_4869.jpeg)
-![plot]()
+![plot](./NORMAL2-IM-1422-0001.jpeg)
 ```Dataset```
 Available at <html>https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 <br>
