@@ -7,11 +7,15 @@ This repository solves the problem of Pneumonia Chest Xray detection using PyTor
 ![plot](./person1944_bacteria_4869.jpeg)
 
 ```Inference on Single Image on Local Machine``` <br>
+
 Run ```server2.py``` on Local Terminal <br>
 On another terminal run <br>
-```curl -X POST  http://127.0.0.1:5000/ -H 'Content-Type: application/json' -d '{"file":"/Users/sarath_computer_vision/Documents/pneumonia/test_nor.jpeg"}'
-```
+
+```curl -X POST  http://127.0.0.1:5000/ -H 'Content-Type: application/json' -d '{"file":"/Users/sarath_computer_vision/Documents/pneumonia/test_nor.jpeg"}'```
+
 <br>
+
+
 ```Dataset```
 Available at <html>https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 <br>
