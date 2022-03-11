@@ -8,6 +8,7 @@ from inference_cloud import ChestXRay
 app = Flask(__name__)
 model = ChestXRay()
 
+print("\n ======***")
 
 @app.route('/', methods=['POST'])
 def predict():
@@ -16,5 +17,5 @@ def predict():
     return jsonify(output)
 
 
-app.run(debug=True)
+app.run(debug=True, host='0.0.0.0')
 

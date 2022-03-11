@@ -27,13 +27,14 @@ class ChestXRay(nn.Module):
             nn.Sigmoid()
         )
         self.model.load_state_dict(torch.load(fpath))
-        print("Loaded Model")
+        print("\n----Loaded Model---")
 
     @torch.no_grad()
     def forward(self,x):
-        conf = self.model(x).item()
-        pred = self.classes[round(conf)]
-        return conf, pred
+        with torch.no_grad():
+            conf = self.model(x).item()
+            pred = self.classes[round(conf)]
+            return conf, pred
 
     def predict(self, path):
         img = cv2.imread(path, cv2.IMREAD_COLOR)
